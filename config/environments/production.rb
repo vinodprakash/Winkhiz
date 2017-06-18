@@ -12,7 +12,7 @@ Rails.application.configure do
   config.i18n.fallbacks = true
   config.active_support.deprecation = :notify
   config.log_formatter = ::Logger::Formatter.new
- config.action_mailer.default_url_options = { :host => 'http://winkhiz-test.herokuapp.com' }
+ config.action_mailer.default_url_options = { :host => 'https://winkhiz-test.herokuapp.com' }
  ActionMailer::Base.delivery_method = :smtp
 ActionMailer::Base.raise_delivery_errors = true
 ActionMailer::Base.perform_deliveries = true
@@ -21,7 +21,7 @@ ActionMailer::Base.smtp_settings = {
   :address   => "smtp.mandrillapp.com",
   :authentication => 'login',
   :port      => 587,
-  :user_name => "psvinodprakash@gmail.com",
-  :password  => "n3yAt2WJpK-KZ0vw6T4_ew"
+  :user_name      => Rails.application.secrets.user_name,
+  :password       => Rails.application.secrets.application_password,
 }
 end
