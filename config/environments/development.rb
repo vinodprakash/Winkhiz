@@ -38,4 +38,20 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  # config.assets.raise_runtime_errors = true
+  config.active_record.migration_error = :page_load
+  config.action_mailer.default_url_options = { :host => 'localhost:3000'  }
+  config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.smtp_settings = {
+  #   :address => "localhost",
+  #   :port => 1025
+  # }
+  ActionMailer::Base.smtp_settings = {
+                    :address        => "smtp.gmail.com",
+                    :port           => 587,
+                    :authentication => :plain,
+                    :user_name      => Rails.application.secrets.user_name,
+                    :password       => Rails.application.secrets.application_password,
+                    :openssl_verify_mode  => 'none'
+  } 
 end
