@@ -59,7 +59,6 @@ input[type="submit"],input[type="reset"],a,.agileinfo_services_grid1_pos,.agilei
 }
 .agileits_w3layouts_banner_nav{
 	padding:1em;
-	border-bottom:1px solid #fff;
 }
 .navbar-default {
     background: none;
@@ -205,29 +204,29 @@ ul.agile_forms {
 /*-- banner-top --*/
 .w3layouts-banner-top{
     background: url(../images/banner.jpg) no-repeat 0px 0px;
-    background-size: cover;	
-	-webkit-background-size: cover;	
+    background-size: cover;
+	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;		
+	-o-background-size: cover;
 	-moz-background-size: cover;
 	min-height:700px;
 }
 .w3layouts-banner-top1{
 	background: url(../images/banner1.jpg) no-repeat 0px 0px;
-    background-size: cover;	
-	-webkit-background-size: cover;	
+    background-size: cover;
+	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;		
+	-o-background-size: cover;
 	-moz-background-size: cover;
 	min-height:700px;
 }
 .w3layouts-banner-top2{
 	background: url(../images/banner2.jpg) no-repeat 0px 0px;
-    background-size: cover;	
-	-webkit-background-size: cover;	
+    background-size: cover;
+	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;		
-	-moz-background-size: cover;	
+	-o-background-size: cover;
+	-moz-background-size: cover;
 	min-height:700px;
 }
 
@@ -242,7 +241,7 @@ ul.agile_forms {
 	-webkit-text-shadow: 1px 1px 2px rgb(12, 12, 12);
 	-o-text-shadow: 1px 1px 2px rgb(12, 12, 12);
 	-moz-text-shadow: 1px 1px 2px rgb(12, 12, 12);
-	
+
 }
 .agileits-banner-info h3 span{
 	    background: #2529d8;
@@ -282,7 +281,7 @@ ul.agile_forms {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-/*-- //banner-top --*/ 
+/*-- //banner-top --*/
 /*--about--*/
 .about-left_w3ls_img {
     background: url(../images/ab.jpg)no-repeat center;
@@ -473,7 +472,7 @@ p.w3l_sub_para_agile {
 .team-grids{
 	position:relative;
 	overflow:hidden;
-} 
+}
 .team-grids img {
     width: 100%;
 }
@@ -510,7 +509,7 @@ p.w3l_sub_para_agile {
 }
 .team-grids:hover div.img-agileinfo-text {
     top: 52%;
-} 
+}
 .team-grids:hover div.img-caption::before {
     bottom: 0;
     width: 90%;
@@ -522,7 +521,7 @@ p.w3l_sub_para_agile {
 }
 .w3social-icons ul li a{
     color:#fff;
-} 
+}
 .w3social-icons ul li a:hover{
       color: #00ba66;
 }
@@ -870,7 +869,7 @@ h3.w3l_header.w3_agileits_header.two {
 }
 .f-bg-w3l {
     background: rgba(0, 0, 0, 0.58);
-    padding: 5em 0 5em 0;
+    padding: 3em 0 3em 0;
 }
 .w3layouts_footer_grid h2{
     font-size: 1.4em;
@@ -1084,7 +1083,7 @@ button.close {
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 32px;
 	height: 32px;
 	border: none;
@@ -1110,7 +1109,16 @@ button.close {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-      min-height: 261px;
+      min-height: 230px;
+}
+.banner2 {
+    background: url(../images/banner4.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+      min-height: 230px;
 }
 .w3_agileits_service_banner_info h2 {
     text-align: center;
@@ -1342,7 +1350,7 @@ ul.bs-glyphicons-list li:hover span {
     -ms-transition: 0.5s all;
     -moz-transition: 0.5s all;
     cursor: pointer;
-} 
+}
 .icon-box:hover {
     background: #000;
 	transition:0.5s all;
@@ -1361,11 +1369,11 @@ ul.bs-glyphicons-list li:hover span {
     float: left;
     width: 12.5%;
     height: 115px;
-    padding: 10px; 
+    padding: 10px;
     line-height: 1.4;
-    text-align: center;  
+    text-align: center;
     font-size: 12px;
-    list-style-type: none;	
+    list-style-type: none;
 }
 .codes .bs-glyphicons .glyphicon {
     margin-top: 5px;
@@ -1383,7 +1391,7 @@ ul.bs-glyphicons-list li:hover span {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 	color: #777;
-} 
+}
 .codes .bs-glyphicons .glyphicon-class {
     display: block;
     text-align: center;
@@ -1437,7 +1445,7 @@ h3.agileits-icons-title {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 	color: #777;
-} 
+}
 .bs-glyphicons .glyphicon-class {
     display: block;
     text-align: center;
@@ -1588,7 +1596,7 @@ li.list-group-item1 {
 .label {
 	font-weight: 300 !important;
 	border-radius:4px;
-}  
+}
 .grid_5{
 	background:none;
 	padding:2em 0;
@@ -2041,7 +2049,7 @@ h3.agileinfo_sign  {
     cursor: pointer;
       background: #33cc99;
     box-shadow: 0px 2px 1px rgba(28, 28, 29, 0.42);
-	
+
 }
 .signin-form input[type="submit"]:hover {
     color: #fff;
@@ -2272,6 +2280,9 @@ h3.agileinfo_sign  {
 	.banner1 {
        min-height: 160px;
 	}
+	.banner2 {
+       min-height: 160px;
+	}
 	.agile_service_grd {
 		width: 80px;
 		height: 80px;
@@ -2388,10 +2399,10 @@ h3.agileinfo_sign  {
 	.team-grids h4 {
     font-size: 1.2em;
 	}
-	.team-grids:hover div.img-caption::before,.img-agileinfo-text { 
-    width: 87.5%; 
+	.team-grids:hover div.img-caption::before,.img-agileinfo-text {
+    width: 87.5%;
 	}
-	.team-grids:hover div.img-caption::before { 
+	.team-grids:hover div.img-caption::before {
 		height: 57%;
 	}
 	.team-grids:hover div.img-agileinfo-text {
@@ -2864,7 +2875,7 @@ h3.agileinfo_sign  {
 		width: 28%;
 	}
 	.team-w3ls-row {
-		width: 40%; 
+		width: 40%;
 	}
 	.team-grids:hover div.img-caption::before, .img-agileinfo-text {
 		width: 89%;
@@ -2990,7 +3001,7 @@ h3.agileinfo_sign  {
 	}
 	.w3_testimonials_right_grid:before {
 		right: -3% !important;
-	}	
+	}
 	.wthree_testimonial_grid_right h3 {
 		font-size: 1.6em;
 	}
@@ -3153,7 +3164,7 @@ h3.agileinfo_sign  {
 	.team-w3ls-row {
 		width: 50%;
 	}
-	
+
 }
 @media (max-width: 568px){
 	.hovereffect h4 {
@@ -3227,6 +3238,9 @@ h3.agileinfo_sign  {
 	.banner1 {
 		min-height: 135px;
 	}
+	.banner2 {
+		min-height: 135px;
+	}
 	.agileits_mail_grid_lft_grid1 {
 		margin: 2em 0 0;
 		padding: 0;
@@ -3248,7 +3262,7 @@ h3.agileinfo_sign  {
 	.banner-bottom h3 {
 		font-size: 1.4em;
 	}
-	
+
 	.hovereffect h4 {
 		-webkit-transform: translateY(82px);
 		-ms-transform: translateY(82px);
@@ -3314,7 +3328,7 @@ h3.agileinfo_sign  {
 	}
 	.agileinfo_services_grid {
 		padding-top: 2.5em;
-	}	
+	}
 	.w3_agileits_header1:after {
 		left: 45% !important;
 	}
@@ -3636,7 +3650,7 @@ h3.agileinfo_sign  {
 	.w3_agileits_search {
 		width: 90%;
 	}
-	
+
 	.w3l_header:after {
 		left: 37%;
 	}
@@ -3670,7 +3684,7 @@ h3.agileinfo_sign  {
 	.footer {
 		min-height: 333px;
 	}
-	.team-grids { 
+	.team-grids {
 		padding: 0;
 	}
 	.team-grids:hover div.img-caption::before, .img-agileinfo-text {
@@ -3833,5 +3847,5 @@ h3.agileinfo_sign  {
 		margin: 9px 0 0 0!important;
 		padding: 3px 0;
 	}
-	
+
 }
