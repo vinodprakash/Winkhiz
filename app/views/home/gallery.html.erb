@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Mastering an Education Category Flat Bootstrap Responsive Website Template | Gallery :: w3layouts</title>
+	<title>Winkhiz Event Management | Gallery</title>
 	<!-- custom-theme -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -13,15 +13,17 @@
 	<body>
 		<!-- banner -->
 		<%= render 'menu'%>
-		<div class="banner1">
+		<div class="banner2">
 			<div class="w3_agileits_service_banner_info">
 				<h2>Gallery</h2>
 			</div>
 		</div>
-
-		<div class="container" style="padding-top: 5%">
+		<div id="loader-wrapper" style="background: whitesmoke;">
+		    <div id="loader"></div>
+		</div>
+		<div class="container" style="padding-top: 5%; padding-bottom: 5%;">
 			<div class="col-md-3">
-				<ul class="portfolio-filter">
+				<ul class="portfolio-filter cl-effect-21">
 						<li><a class="btn btn-link active" href="#" data-filter=".all">All</a></li>
 						<li><a class="btn btn-link" href="#" data-filter=".butterflies">Butterflies</a></li>
 						<li><a class="btn btn-link" href="#" data-filter=".chemfluence">Chemfluence</a></li>
@@ -60,25 +62,11 @@
 				$portfolio.isotope({ filter: selector });
 				return false;
 			});
+			$('.portfolio-filter >li>a.active').click();
 		});
 		</script>
 		<script src="js/jquery.isotope.min.js"></script>
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$('.portfolio-filter').find('a.active').click();
-				$(".scroll").click(function(event){
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
-		<!-- start-smooth-scrolling -->
-		<link rel="stylesheet" href="css/swipebox.css">
-		<script src="js/jquery.swipebox.min.js"></script>
-		<script type="text/javascript">
-			jQuery(function($) {
-				$(".swipebox").swipebox();
-			});
-		</script>
+		<script src="js/modernizr.custom.js"></script>
+
 	</body>
 </html>

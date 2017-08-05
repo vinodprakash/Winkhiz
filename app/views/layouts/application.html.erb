@@ -19,6 +19,7 @@
   <body>
 
     <%= yield %>
+
     <script type="text/javascript" src="js/move-top.js"></script>
     <script type="text/javascript" src="js/easing.js"></script>
     <script type="text/javascript">
@@ -33,6 +34,7 @@
     <script type="text/javascript">
       $(document).ready(function() {
         $().UItoTop({ easingType: 'easeOutQuart' });
+        $("body").find('#loader-wrapper').hide();
       });
     </script>
   </body>

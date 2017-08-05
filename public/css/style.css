@@ -59,7 +59,6 @@ input[type="submit"],input[type="reset"],a,.agileinfo_services_grid1_pos,.agilei
 }
 .agileits_w3layouts_banner_nav{
 	padding:1em;
-	border-bottom:1px solid #fff;
 }
 .navbar-default {
     background: none;
@@ -870,7 +869,7 @@ h3.w3l_header.w3_agileits_header.two {
 }
 .f-bg-w3l {
     background: rgba(0, 0, 0, 0.58);
-    padding: 5em 0 5em 0;
+    padding: 3em 0 3em 0;
 }
 .w3layouts_footer_grid h2{
     font-size: 1.4em;
@@ -1110,13 +1109,22 @@ button.close {
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
-      min-height: 180px;
+      min-height: 230px;
+}
+.banner2 {
+    background: url(../images/banner4.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+      min-height: 230px;
 }
 .w3_agileits_service_banner_info h2 {
     text-align: center;
     font-size: 2.3em;
     color: #fff;
-    padding-top: 2em;
+    padding-top: 3em;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: 800;
@@ -2272,6 +2280,9 @@ h3.agileinfo_sign  {
 	.banner1 {
        min-height: 160px;
 	}
+	.banner2 {
+       min-height: 160px;
+	}
 	.agile_service_grd {
 		width: 80px;
 		height: 80px;
@@ -3225,6 +3236,9 @@ h3.agileinfo_sign  {
 		letter-spacing: 2px;
 	}
 	.banner1 {
+		min-height: 135px;
+	}
+	.banner2 {
 		min-height: 135px;
 	}
 	.agileits_mail_grid_lft_grid1 {
