@@ -1112,7 +1112,16 @@ button.close {
       min-height: 230px;
 }
 .banner2 {
-    background: url(../images/banner4.jpg) no-repeat 0px 0px;
+    background: url(../images/banner41.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+      min-height: 230px;
+}
+.banner3 {
+    background: url(../images/banner5.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1825,7 +1834,7 @@ h2.typoh2{
     color: #eb5424;
     margin: 1em 0 0.3em;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
 }
 .w3layouts_mail_grid_left2 a{
 	text-decoration:none;
@@ -1938,7 +1947,7 @@ h2.typoh2{
 }
 .agileits_mail_grid_right1{
 	padding:3em;
-	background:#f5f5f5;
+	background:#262c38;
 }
 .agileits_mail_grid_right1 span i{
     color: #fff;
@@ -2283,6 +2292,9 @@ h3.agileinfo_sign  {
 	.banner2 {
        min-height: 160px;
 	}
+	.banner3 {
+       min-height: 160px;
+	}
 	.agile_service_grd {
 		width: 80px;
 		height: 80px;
@@ -2379,7 +2391,7 @@ h3.agileinfo_sign  {
 	.w3layouts_mail_grid_left2 h3 {
 		font-size: 1em;
 		margin: 1em 0 0.3em;
-		letter-spacing: 4px;
+		letter-spacing: 1px;
 	}
 	.agileits_mail_grid_right1 input[type="submit"] {
        width: 17%;
@@ -3042,7 +3054,7 @@ h3.agileinfo_sign  {
 	}
 	.w3layouts_mail_grid_left2 h3 {
 		font-size: 1em;
-		letter-spacing: 2px;
+		letter-spacing: 1px;
 	}
 	.agileits_mail_grid_lft_grid1 {
 		margin: 2em 0 0;
@@ -3239,6 +3251,9 @@ h3.agileinfo_sign  {
 		min-height: 135px;
 	}
 	.banner2 {
+		min-height: 135px;
+	}
+	.banner3 {
 		min-height: 135px;
 	}
 	.agileits_mail_grid_lft_grid1 {
@@ -3487,6 +3502,12 @@ h3.agileinfo_sign  {
 	.banner1 {
 		min-height: 116px;
 	}
+	.banner2 {
+		min-height: 116px;
+	}
+	.banner3 {
+		min-height: 116px;
+	}
 	.w3_agileits_service_banner_info h2 {
 		font-size: 1.6em;
 		letter-spacing: 3px;
@@ -3570,6 +3591,12 @@ h3.agileinfo_sign  {
 		min-height: 200px;
 	}
 	.banner1 {
+		min-height: 100px;
+	}
+	.banner2 {
+		min-height: 100px;
+	}
+	.banner3 {
 		min-height: 100px;
 	}
 	.agileits-banner-info p {
@@ -3831,6 +3858,12 @@ h3.agileinfo_sign  {
 		float: right;
 	}
 	.banner1 {
+		min-height: 84px;
+	}
+	.banner2 {
+		min-height: 84px;
+	}
+	.banner3 {
 		min-height: 84px;
 	}
 	.gallery-grid {
