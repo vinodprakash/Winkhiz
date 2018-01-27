@@ -1,131 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Winkhiz Event Management | Home</title>
-	<!-- custom-theme -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="" />
-	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
-	</head>
-
 	<body>
 		<%= render 'menu'%>
-		<div class="banner-silder">
-			<div id="JiSlider" class="jislider">
-				<ul>
-					<li>
-						<div class="w3layouts-banner-top">
+		<div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+		  <!-- Overlay -->
+		  <div class="overlay"></div>
 
-							<div class="container">
-								<div class="agileits-banner-info">
-									<span>Education</span>
-									<h3>For the Creatives</h3>
-									<p>You can learn anything</p>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="w3layouts-banner-top w3layouts-banner-top1">
-							<div class="container">
-								<div class="agileits-banner-info">
-									<span>Free</span>
-									<h3>Premium Courses</h3>
-									<p>You only have to know one thing</p>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="w3layouts-banner-top w3layouts-banner-top2">
-							<div class="container">
-								<div class="agileits-banner-info">
-									<span>Education</span>
-									<h3>For the Creatives</h3>
-									<p>You can learn anything.</p>
-								</div>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
+		  <!-- Indicators -->
+		  <ol class="carousel-indicators">
+		    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#bs-carousel" data-slide-to="1"></li>
+		    <li data-target="#bs-carousel" data-slide-to="2"></li>
+		  </ol>
+
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner">
+		    <div class="item slides active">
+		      <div class="slide-1"></div>
+		      <div class="hero">
+		        <hgroup>
+		            <h1>We are creative</h1>
+		            <!-- <h3>Get start your next awesome project</h3> -->
+		        </hgroup>
+		        <!-- <button class="btn btn-hero btn-lg" role="button">See all features</button> -->
+		      </div>
+		    </div>
+		    <div class="item slides">
+		      <div class="slide-2"></div>
+		      <div class="hero">
+		        <hgroup>
+		            <h1>We are smart</h1>
+		            <!-- <h3>Get start your next awesome project</h3> -->
+		        </hgroup>
+		        <!-- <button class="btn btn-hero btn-lg" role="button">See all features</button> -->
+		      </div>
+		    </div>
+		    <div class="item slides">
+		      <div class="slide-3"></div>
+		      <div class="hero">
+		        <hgroup>
+		            <h1>We are amazing</h1>
+		            <!-- <h3>Get start your next awesome project</h3> -->
+		        </hgroup>
+		        <!-- <button class="btn btn-hero btn-lg" role="button">See all features</button> -->
+		      </div>
+		    </div>
+		  </div>
 		</div>
-
 		<!-- //banner -->
 		<!-- bootstrap-pop-up -->
-		<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
 
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					</div>
-					<section>
-						<div class="modal-body">
-							<h5>Mastering</h5>
-							<img src="images/all/2.jpg" alt=" " class="img-responsive" />
-							<p>Ut enim ad minima veniam, quis nostrum
-								exercitationem ullam corporis suscipit laboriosam,
-								nisi ut aliquid ex ea commodi consequatur? Quis autem
-								vel eum iure reprehenderit qui in ea voluptate velit
-								e.
-								<i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-									esse quam nihil molestiae consequatur.</i></p>
-								</div>
-							</section>
-						</div>
-					</div>
-				</div>
 				<div class="services" id="services">
 					<div class="container">
 						<h3 class="w3l_header w3_agileits_header two">Our <span>Benefits</span></h3>
 						<div class="agile_inner_w3ls-grids two">
-							<div class="col-md-1 service-box">
+							<div class="row">
+								<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 service-box client_requirment">
+									<figure class="icon">
+										<i class="fa fa-info-circle" aria-hidden="true"></i>
+									</figure>
+									<h5>Client Requirements</h5>
+								</div>
+								<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 service-box planning" style="padding-left: 15px;">
+									<figure class="icon">
+										<i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+									</figure>
+									<h5>Planning</h5>
+								</div>
+								<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 service-box assessment" style="padding-left: 15px;">
+									<figure class="icon">
+										<i class="fa fa-percent" aria-hidden="true"></i>
+									</figure>
+									<h5>Assessment</h5>
+								</div>
 							</div>
-							<div class="col-md-2 service-box client_requirment">
-								<figure class="icon">
-									<span>1</span>
-									<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-								</figure>
-								<h5>Client Requirements</h5>
+							<br />
+							<div class="row">
+								<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 service-box execution">
+									<figure class="icon">
+										<i class="fa fa-tasks" aria-hidden="true"></i>
+									</figure>
+									<h5>Execution</h5>
+								</div>
+								<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 service-box feedback">
+									<figure class="icon">
+										<i class="fa fa-comments-o" aria-hidden="true"></i>
+									</figure>
+									<h5>Report and Feedback</h5>
+								</div>
 							</div>
-							<div class="col-md-2 service-box planning">
-								<figure class="icon">
-									<span>2</span>
-									<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-								</figure>
-								<h5>Planning</h5>
-							</div>
-							<div class="col-md-2 service-box assessment">
-								<figure class="icon">
-									<span>3</span>
-									<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-								</figure>
-								<h5>Assessment</h5>
-							</div>
-							<div class="col-md-2 service-box execution">
-								<figure class="icon">
-									<span>4</span>
-									<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-								</figure>
-								<h5>Execution</h5>
-							</div>
-							<div class="col-md-2 service-box feedback">
-								<figure class="icon">
-									<span>5</span>
-									<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-								</figure>
-								<h5>Report and Feedback</h5>
-							</div>
+
 							<style type="text/css">
 								.service-box:hover {
 								    cursor: pointer;
 								}
 							</style>
 							<div class="clearfix"> </div>
-							<div class="row landing_page_content" style="padding-top: 5%; width: 90%; padding-left: 11%;">
+							<div id ="section1" class="row landing_page_content" style="padding-top: 5%; width: 90%; padding-left: 11%; text-align: justify;">
 								<p id="client_requirment_content" style="display: none; color: #fff;" align="center">Putting clients as our first priority, we spend a lot of time understanding the requirements.<br/ > We will gather information about the theme, purpose, style, budget, time limit and other constraints. We will then prepare a clear report on the requirements and get the client approval. Any changes from either side will be recorded to ensure consistency.</p>
 								<p id="planning_content" style="display: none; color: #fff;" align="center">With the requirements gathered, we will put together a fool-proof plan taking every little detailing into consideration. <br/ > This will contain the complete answers to all what, when, who, where, why and how’s of the event. A comprehensive plan with budget splits and timing will be prepared.</p>
 								<p id="assessment_content" style="display: none; color: #fff;" align="center">With the requirements and plan in place, we will sit together with the client to make an assessment.<br/ > This is a crucial step as we can cut down on excessive spending, create back-up alternatives and improve existing design. Now, we will have the perfect understanding and strategy in place and all we have to do is execute it.</p>
@@ -157,36 +128,7 @@
 						</div>
 					</div>
 				</div>
-				<%= render 'footer' %>
-				<script src="js/JiSlider.js"></script>
-				<script>
-					$(window).load(function () {
-						$('#JiSlider').JiSlider({color: '#fff', start: 3, reverse: true}).addClass('ff')
-					})
-				</script>
-				<script type="text/javascript">
-					var _gaq = _gaq || [];
-					_gaq.push(['_setAccount', 'UA-36251023-1']);
-					_gaq.push(['_setDomainName', 'jqueryscript.net']);
-					_gaq.push(['_trackPageview']);
 
-					(function() {
-						var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-						ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-					})();
-				</script>
-				<script defer src="js/jquery.flexslider.js"></script>
-				<script type="text/javascript">
-					$(window).load(function(){
-						$('.flexslider').flexslider({
-							animation: "slide",
-							start: function(slider){
-								$('body').removeClass('loading');
-							}
-						});
-					});
-				</script>
 
 	</body>
 </html>

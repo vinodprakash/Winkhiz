@@ -1,28 +1,17 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Winkhiz Event Management | Gallery</title>
-	<!-- custom-theme -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="" />
-	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
-	</head>
-
 	<body>
 		<!-- banner -->
 		<%= render 'menu'%>
 		<div class="banner2">
-			<div class="w3_agileits_service_banner_info">
+			<!-- <div class="w3_agileits_service_banner_info">
 				<h2>Gallery</h2>
-			</div>
+			</div> -->
 		</div>
 		<div id="loader-wrapper" style="background: whitesmoke;">
 		    <div id="loader"></div>
 		</div>
 		<div class="container" style="padding-top: 5%; padding-bottom: 5%;">
-			<div class="col-md-3">
+			<!-- <div class="col-md-3">
 				<ul class="portfolio-filter cl-effect-21">
 						<li><a class="btn btn-link active" href="#" data-filter=".all">All</a></li>
 						<li><a class="btn btn-link" href="#" data-filter=".butterflies">Butterflies</a></li>
@@ -32,8 +21,8 @@
 						<li><a class="btn btn-link" href="#" data-filter=".shuru">Shuru</a></li>
 						<li><a class="btn btn-link" href="#" data-filter=".kalakrithi_17">Kalakrithi'17</a></li>
 				</ul>
-			</div>
-			<div class="col-md-9">
+			</div> -->
+			<div class="col-md-12">
 				<ul class="portfolio-items col-3">
 					<%= render 'gallery_all'%>
 					<%= render 'gallery_butterflies'%>
@@ -45,8 +34,6 @@
 				</ul>
 			</div>
 		</div>
-		<%= render 'footer' %>
-		<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 		<script type="text/javascript">
 		$(window).load(function(){
 			$portfolio = $('.portfolio-items');
@@ -65,8 +52,6 @@
 			$('.portfolio-filter >li>a.active').click();
 		});
 		</script>
-		<script src="js/jquery.isotope.min.js"></script>
-		<script src="js/modernizr.custom.js"></script>
 
 	</body>
 </html>

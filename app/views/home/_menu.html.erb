@@ -1,16 +1,16 @@
 <div class="main_section_agile">
 	<div class="agileits_w3layouts_banner_nav">
 		<nav class="navbar navbar-default">
-			<div class="navbar-header navbar-left">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<div class="navbar-header navbar-left" style="padding-bottom: 8px;">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<h1><a class="navbar-brand" href="/"><i><img src="/images/full_logo.png" width="250px;"></i></a></h1>
+				<h1><a class="navbar-brand" href="/"><i><%= image_tag("full_logo.png", width: "250px;") %></i></a></h1>
 			</div>
-			<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" style="padding-left: 25%;">
+			<div class="collapse navbar-collapse navbar-right pull-right" id="bs-example-navbar-collapse-1">
 				<nav class="menu--iris">
 					<ul class="nav navbar-nav menu__list">
 						<li class="menu__item <%= (params[:action] == 'index') ? 'menu__item--current' : ''%>"><a href="/" class="menu__link">Home</a></li>

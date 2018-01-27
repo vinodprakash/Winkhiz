@@ -122,7 +122,7 @@ html.swipebox-html.swipebox-touch {
     width: 45%;
     text-align: center;
     margin: 0 auto !important;
-} 
+}
 #swipebox-prev,
 #swipebox-next,
 #swipebox-close {
@@ -151,7 +151,7 @@ html.swipebox-html.swipebox-touch {
 #swipebox-next {
   background-position: -78px 13px;
   float: right;
-} 
+}
 #swipebox-close {
 	right: 50px;
 	top: 12px;
@@ -276,7 +276,7 @@ html.swipebox-html.swipebox-touch {
     max-width: 800px;
   }
 }
-/* Skin 
+/* Skin
 --------------------------*/
 #swipebox-overlay {
   background: #0d0d0d;
@@ -290,7 +290,7 @@ html.swipebox-html.swipebox-touch {
 #swipebox-top-bar {
   color: white !important;
   font-size: 15px;
-  line-height: 30px; 
+  line-height: 30px;
 }
 @media(max-width:1366px){
 #swipebox-top-bar {
@@ -302,7 +302,7 @@ html.swipebox-html.swipebox-touch {
     width: 61%;
     line-height: 1.8em;
     margin: 1em auto 0 !important;
-} 
+}
 }
 @media(max-width:768px){
 #swipebox-title {
@@ -313,8 +313,8 @@ html.swipebox-html.swipebox-touch {
 }
 }
 @media(max-width:667px){
-#swipebox-slider .slide img, #swipebox-slider .slide .swipebox-video-container { 
-    max-width: 80%; 
+#swipebox-slider .slide img, #swipebox-slider .slide .swipebox-video-container {
+    max-width: 80%;
 }
 #swipebox-title {
     width: 82%;
@@ -333,21 +333,21 @@ html.swipebox-html.swipebox-touch {
 }
 @media(max-width:480px){
 #swipebox-title {
-    width: 85%; 
-} 
+    width: 85%;
+}
 #swipebox-close {
     right: 30px;
 }
 #swipebox-slider .slide img, #swipebox-slider .slide .swipebox-video-container {
     max-width: 100%;
 }
-#swipebox-container { 
-    width: 97%; 
+#swipebox-container {
+    width: 97%;
 }
 }
 @media(max-width:414px){
-#swipebox-container { 
-    width: 96%; 
+#swipebox-container {
+    width: 96%;
 }
 }
 @media(max-width:384px){

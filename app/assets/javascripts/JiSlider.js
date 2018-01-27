@@ -176,7 +176,7 @@
 			var controller = $('<div>', {'class': 'jislider__controller'}).css({
 				width: 20 * slides,
 			});
-			
+
 			var buttons = new Array();
 			for (var i = 0; i < slides; i++) {
 				buttons[i] = $('<div>', {'class': 'jislider__button', 'data-index': (i + 1)}).css({

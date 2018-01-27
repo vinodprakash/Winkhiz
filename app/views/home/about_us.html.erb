@@ -1,26 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Winkhiz Event Management | About</title>
-	<!-- custom-theme -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="" />
-	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
-	</head>
-
 	<body>
 		<!-- banner -->
 		<%= render 'menu'%>
 		<div class="banner3">
-			<div class="w3_agileits_service_banner_info">
+			<!-- <div class="w3_agileits_service_banner_info">
 				<h2>About Us</h2>
-			</div>
+			</div> -->
 		</div>
-
 		<!-- //banner -->
-		<div class="container" style="padding-top: 10%; padding-bottom: 5%">
+		<div class="row" style="padding-top: 5%;">
+			<h3 class="w3l_header w3_agileits_header1">About Us</h3>
+		</div>
+		<div class="container" style="padding-top: 7%; padding-bottom: 5%">
 			<div class="col-md-6 col-news-right ">
 				<div class="col-news-top">
 					<div class="col-bottom">
@@ -28,21 +20,15 @@
 						<p>WinkHiz is a dedicated event management team which has ensured the satisfaction of many customers by organizing successful cultural and technical events for the past 2 years. With our technical expertise and creative minds, we innovate fast, deliver efficiently and pledge crowd-pulling memories! </p>
 					</div>
 					<div class="date-in">
-						<img class="img-responsive" src="images/g1.jpg" alt="">
-						<div class="month-in">
-							<span><img src="images/icon1.png" alt=" "></span>
-							<p>Consectetuer adipiscing</p>
-						</div>
+						<%= image_tag("about_us_2.png", :alt => "",class: "img-responsive") %>
+
 					</div>
 					<br>
 					<div class="col-bottom">
 						<h4>Our Mission</h4>
 						<p>To organize unparalleled events by putting customer satisfaction and responsible environmental causes first coupled with a deep sense of ideas and culture. </p>
 					</div>
-					<div class="col-bottom">
-						<h4>Our Vision</h4>
-						<p>To contribute to the celebration of society by becoming competent and trustworthy leaders in event management and to render excellent service to clients resulting in indelible impressions. </p>
-					</div>
+
 
 				</div>
 
@@ -55,15 +41,11 @@
 					</p>
 
 				</div>
-				<div class="col-news-top">
-					<div class="date-in">
-						<img class="img-responsive" src="images/g2.jpg" alt="">
-						<div class="month-in">
-							<span><img src="images/icon1.png" alt=" "></span>
-							<p>Consectetuer adipiscing</p>
-						</div>
-					</div>
+				<div class="col-bottom">
+					<h4>Our Vision</h4>
+					<p>To contribute to the celebration of society by becoming competent and trustworthy leaders in event management and to render excellent service to clients resulting in indelible impressions. </p>
 				</div>
+
 			</div>
 			<div class="clearfix"> </div>
 		</div>
@@ -72,42 +54,47 @@
 			<div class="row grid">
 				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
 					<figure class="effect-jazz">
-						<img src="images/favicon.png" alt="img25"/>
+						<%= image_tag("favicon.png", :alt => "", height: "175px !important;") %>
 						<figcaption>
 							<h2><span>Arun Mozhi</span></h2>
-							<p>Conact Details</p>
+							<p style="font-size: 12px;">Public Relation</p>
 						</figcaption>
 					</figure>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
 					<figure class="effect-jazz">
-						<img src="images/favicon.png" alt="img25"/>
+						<%= image_tag("favicon.png", :alt => "", height: "175px !important;") %>
 						<figcaption>
 							<h2><span>Logesh</span></h2>
-							<p>Conact Details</p>
+							<p style="font-size: 12px;">Operations</p>
 						</figcaption>
 					</figure>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
 					<figure class="effect-jazz">
-						<img src="images/favicon.png" alt="img25"/>
+						<%= image_tag("favicon.png", :alt => "", height: "175px !important;") %>
 						<figcaption>
-							<h2><span>Subass</span></h2>
-							<p>Conact Details</p>
+							<h2><span>Subash</span></h2>
+							<p style="font-size: 12px;">Finance</p>
 						</figcaption>
 					</figure>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
 					<figure class="effect-jazz">
-						<img src="images/favicon.png" alt="img25"/>
+						<%= image_tag("favicon.png", :alt => "", height: "175px !important;") %>
 						<figcaption>
 							<h2><span>Surenth</span></h2>
-							<p>Conact Details</p>
+							<p style="font-size: 12px;">Business Development</p>
 						</figcaption>
 					</figure>
 				</div>
 			</div>
 		</div>
-		<%= render 'footer' %>
+
 	</body>
 </html>
+<style media="screen">
+	.effect-jazz span {
+		font-size: 25px;
+	}
+</style>
