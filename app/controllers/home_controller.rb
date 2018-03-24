@@ -1,5 +1,7 @@
 class HomeController < ApplicationController
-  skip_before_filter :verify_authenticity_token 
+  skip_before_filter :verify_authenticity_token
+  after_filter :set_header_for_iframe
+  
   def index
   end
 
@@ -24,5 +26,11 @@ class HomeController < ApplicationController
     UserMailer.welcome_email(@user).deliver_later
     UserMailer.website_enquiry(@user).deliver_later
     redirect_to '/contact' and return
+  end
+
+  private
+
+  def set_header_for_iframe
+    response.headers.delete "X-Frame-Options"
   end
 end
