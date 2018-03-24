@@ -3,7 +3,7 @@ class HomeController < ApplicationController
   after_filter :set_header_for_iframe
 
   def index
-    redirect_to 'http://www.winkhiz.com' and return
+    # redirect_to 'http://www.winkhiz.com' and return
   end
 
   def services
@@ -21,7 +21,7 @@ class HomeController < ApplicationController
   def contact
     redirect_to 'http://www.winkhiz.com/contact' and return
   end
-  
+
   def customer_contact
     customer_name = params['Name']
     email = params['Email']
