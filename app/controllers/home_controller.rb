@@ -1,21 +1,27 @@
 class HomeController < ApplicationController
   skip_before_filter :verify_authenticity_token
   after_filter :set_header_for_iframe
-  
+
   def index
+    redirect_to 'http://www.winkhiz.com' and return
   end
 
   def services
+    redirect_to 'http://www.winkhiz.com/services' and return
   end
 
   def gallery
+    redirect_to 'http://www.winkhiz.com/gallery' and return
   end
 
   def about_us
+    redirect_to 'http://www.winkhiz.com/about_us' and return
   end
 
   def contact
+    redirect_to 'http://www.winkhiz.com/contact' and return
   end
+  
   def customer_contact
     customer_name = params['Name']
     email = params['Email']
