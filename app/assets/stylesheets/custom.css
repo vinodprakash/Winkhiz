@@ -4790,7 +4790,9 @@ Image credits: unsplash.com
 /********************************/
 .fade-carousel .slides .slide-1,
 .fade-carousel .slides .slide-2,
-.fade-carousel .slides .slide-3 {
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4,
+.fade-carousel .slides .slide-5 {
   height: 100vh;
   background-size: cover;
   background-position: center center;
@@ -4803,7 +4805,13 @@ Image credits: unsplash.com
   background-image: url('landing5.jpg');
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url('landing7.jpg');
+  background-image: url('landing8.jpg');
+}
+.fade-carousel .slides .slide-4 {
+  background-image: url('landing9.jpg');
+}
+.fade-carousel .slides .slide-5 {
+  background-image: url('landing10.jpg');
 }
 
 /********************************/
