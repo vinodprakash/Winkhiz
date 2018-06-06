@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
   skip_before_filter :verify_authenticity_token
-  after_filter :set_header_for_iframe
-  
+  # after_filter :set_header_for_iframe
+
   def index
   end
 
