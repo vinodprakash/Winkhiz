@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-gem 'rails', '4.2.5'
+# gem 'rails', '4.2.5'
+gem 'rails', github: 'rails/rails', branch: '4-2-stable'
 group :development, :test do
  gem 'mailcatcher'
  gem 'sqlite3'
