@@ -4789,10 +4789,7 @@ Image credits: unsplash.com
 /*       Slides backgrounds     */
 /********************************/
 .fade-carousel .slides .slide-1,
-.fade-carousel .slides .slide-2,
-.fade-carousel .slides .slide-3,
-.fade-carousel .slides .slide-4,
-.fade-carousel .slides .slide-5 {
+.fade-carousel .slides .slide-2 {
   height: 100vh;
   background-size: cover;
   background-position: center center;
