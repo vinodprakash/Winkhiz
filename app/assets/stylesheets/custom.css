@@ -4789,27 +4789,30 @@ Image credits: unsplash.com
 /*       Slides backgrounds     */
 /********************************/
 .fade-carousel .slides .slide-1,
-.fade-carousel .slides .slide-2 {
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4,
+.fade-carousel .slides .slide-5 {
   height: 100vh;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url('landing2.jpg');
+  background-image: url('landing4.jpg');
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url('landing5.jpg');
+  background-image: url('landing2.jpg');
 }
-/*.fade-carousel .slides .slide-3 {
-  background-image: url('landing8.jpg');
+.fade-carousel .slides .slide-3 {
+  background-image: url('landing5.jpg');
 }
 .fade-carousel .slides .slide-4 {
   background-image: url('landing9.jpg');
 }
 .fade-carousel .slides .slide-5 {
   background-image: url('landing10.jpg');
-}*/
+}
 
 /********************************/
 /*          Media Queries       */
